@@ -1,2 +1,2 @@
 # 05_Memory Image
-![Alt text](./Untitled-2023-11-29-0620.png "Optional title") 
+![Image]("./Untitled-2023-11-29-0620.png" "Memory Managemnet Image") 
