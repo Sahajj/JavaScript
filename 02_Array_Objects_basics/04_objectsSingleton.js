@@ -80,3 +80,20 @@ const users = [
 
 //!  to apply operation in this type of objects or Arrays
 console.log(users[1].email);
+console.log(tinderUser);
+
+//! Some times we will need to use some methods like
+//! Objects. --> This means that you want to run Object Methods on some Object that you have Defined
+//! In simple words Objects. is used to access methods of Objects
+console.log(Object.keys(tinderUser)); 
+//! The Output data type of this will be array and we can use a for loop to retrieve info from the database 
+console.log(Object.values(tinderUser));
+//! this will get the values of the keys 
+//! can use length, values, Entries 
+console.log(Object.entries(tinderUser)); //! returns = [ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
+
+//! When we are Retriving values sometimes we can't find values for some reason let's assume it's empty 
+//! Then we can ask the Object too or Check Manually
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); // returns True
+console.log(tinderUser.hasOwnProperty('isLogged')); // returns False
