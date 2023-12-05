@@ -1,0 +1,1 @@
+// WAP to input n numbers and log the average of those number.
